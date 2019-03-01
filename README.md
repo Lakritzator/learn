@@ -25,13 +25,14 @@ These topics are of a generic nature, and most of them can be used independend o
   - [IntelliJ](https://www.jetbrains.com/idea/)
     A java based, platform independend, code editor. Has a free community version.
 - Ticket / bug reporting systems
-  - Jira
-  - Azure DevOps
+  - [Jira](https://www.atlassian.com/software/jira)
+  - [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
 - Agile, a way of working
   - Scrum
   - Kanban
 - Dependency management
   - Artifact stores
+  - Licenses of dependencies
 - Code styles
   - EditorConfig
 - Code quality
@@ -45,20 +46,22 @@ These topics are of a generic nature, and most of them can be used independend o
 - CI/CD (Continuous Integration and Continuous Delivery) basics
   - Jenkins
   - Azure DevOps
+  - AppVeyor
+  - TeamCity
 - Docker
   - Kubernetics
 
 ## Java 
 
 - The language
-  - Java
+  - [Java](https://www.learnjavaonline.org/)
   - [Kotlin](https://kotlinlang.org/) as a compatible alternative to Java
 - [Spring-Framework](https://spring.io/) is a framework which offers enterprise components
   - Spring-Boot
   - Spring-Cloud-Config
-- Dependency management
-  - Maven
-  - Gradle
+- [Dependency management](https://docs.gradle.org/current/userguide/introduction_dependency_management.html)
+  - [Maven](https://maven.apache.org/)
+  - [Gradle](https://gradle.org)
 
 ## dotnet
 
