@@ -1,11 +1,6 @@
 # learn
 This readme contains topics, with links to details, which a dotnet or java developer from my point of view should know to be successful as a developer. This document is probably never be finished, it will need changes all the time just so as developers never finish learning!
 
-This is work in progress, there is a lot of todos.
-- Add why
-- Add links
-- Add more topics
-
 
 ## generic topics
 
@@ -21,9 +16,9 @@ These topics are of a generic nature, and most of them can be used independent o
     - [GitHub](https://github.com)
     - [BitBucket](https://bitbucket.org)
     - [GitLab](https://about.gitlab.com/)
-- IDE
+- IDE (Integrated Development Environment)
 
-  What IDE to use is a popular discussion, in this time and age it's not really a huge problem when multiple IDEs are used inside a team. The most important feature of an IDE is having git support, and it will certainly help if the IDE knows your project structure and does color highlighting. Some people are satisfied with vi(m) and other commandline tools, but my advice is using one of the following:
+  What IDE to use is a popular discussion, in this time and age it's not really a huge problem when multiple IDEs are used inside a team. The most important feature of an IDE is having git support, and it will certainly help if the IDE knows your project structure and does color highlighting. Some people are satisfied with vi(m) and other command-line tools, but my advice is using one of the following:
   - [Visual Studio Code](https://code.visualstudio.com/)
     A free, platform independent and open source code editor.
   - [Visual Studio](https://visualstudio.microsoft.com/) (2017 / 2019)
@@ -48,7 +43,7 @@ These topics are of a generic nature, and most of them can be used independent o
   - [Here](https://www.youtube.com/watch?v=rIaz-l1Kf8w) is a YouTube video to have the differences of the most popular methods (Scrum / Kanban) explained.
 - [Dependency management](https://docs.gradle.org/current/userguide/introduction_dependency_management.html)
   
-  Almost no application can refrain from using other dependencies, like Framework code, Loggers etc. To be able to find, update (Lifecycle management), scan, delete all of these, a system should be used.
+  Almost no application can refrain from using other dependencies, like framework code, loggers etc. Why invent the wheel yourself? To be able to find, update (Life cycle management), scan, delete all of these, a system should be used.
   - [Dependabot](https://dependabot.com/) can automatically check your dependencies and create pull requests for them.
 - Code styles
   Make sure you have a code style for your project, and document this to reduce friction and questions with other developers.
@@ -60,10 +55,12 @@ These topics are of a generic nature, and most of them can be used independent o
     - Manual testing
     - UI testing
   - [Code coverage](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
+    - [Coveralls](http://coveralls.io) online services for seeing your coverage
   - Static code scanning
     - Fortify
     - "Lint"
     - PMD
+    - [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 - [Dependency Injection (DI) / Inversion of Control (IoC)](https://en.wikipedia.org/wiki/Inversion_of_control)
 - [CI/CD (Continuous Integration and Continuous Delivery)](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
   
@@ -79,10 +76,24 @@ These topics are of a generic nature, and most of them can be used independent o
 
 - The language
   - [Java](https://www.learnjavaonline.org/)
+    is a platform independent programming language, it can run on almost anything.
+    - When learning Java, first concentrate on the basic language features, when you have this under control, go onto the more advanced features (Java version 8 added a lot) and start using project & dependency management (maven)
+      - type system with collections & generics
+      - object oriented development
+      - unit testing
+      - understand the VM and the development cycle
+    - [Java tutorial for beginners](https://www.youtube.com/watch?v=3u1fu6f8Hto)
+    - [Here](https://app.pluralsight.com/paths/skill/java) is a complete "path" for Java available on Pluralsight (not free)
+    - [Here](https://app.pluralsight.com/paths/skill/java-ee-foundations) is a complete "path" for Java EE (Enterprise Edition) available on Pluralsight (not free)
   - [Kotlin](https://kotlinlang.org/) as a compatible alternative to Java
 - [Spring-Framework](https://spring.io/) is a framework which offers enterprise grade Java components, helping you to build applications with little fuzz.
   - Spring-Boot
+    
+    helps you to boot-up your application, and allows you to add modules, like security, in a consistent way.
+    - [Books & videos from Packt](https://search.packtpub.com/?query=spring%20boot&refinementList%5Breleased%5D%5B0%5D=Available)
   - Spring-Cloud-Config
+    
+    manageing configuration is a difficult part of developing applications, this project will assist you with it.
 - Dependency management
   - [Maven](https://maven.apache.org/)
   - [Gradle](https://gradle.org)
@@ -93,6 +104,7 @@ These topics are of a generic nature, and most of them can be used independent o
 
 - Languages
   - [C#](https://www.learncs.org/)
+    - [Here](https://app.pluralsight.com/paths/skill/csharp) is a complete "path" for C# available on Pluralsight (not free)
   - [F#](https://fsharp.org/learn.html)
 - Dependency management
   - [NuGet](https://www.nuget.org/)
