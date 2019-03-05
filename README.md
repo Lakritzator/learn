@@ -70,7 +70,12 @@ These topics are of a generic nature, and most of them can be used independent o
   - [AppVeyor](https://www.appveyor.com/)
   - [TeamCity](https://www.jetbrains.com/teamcity/)
 - [Docker](https://itnext.io/docker-from-the-beginning-part-i-ae809b84f89f)
-  - Kubernetics
+  
+  Docker provides container technology which makes it possible to quickly prototype a more complex architecture on your developer system, or build an application to rollout into production.
+  - [For Windows](https://docs.docker.com/docker-for-windows/)
+  - [Kubernetics](https://kubernetes.io/)
+
+    is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 ## Java 
 
@@ -91,7 +96,7 @@ These topics are of a generic nature, and most of them can be used independent o
     
     helps you to boot-up your application, and allows you to add modules, like security, in a consistent way.
     - [Books & videos from Packt](https://search.packtpub.com/?query=spring%20boot&refinementList%5Breleased%5D%5B0%5D=Available)
-  - Spring-Cloud-Config
+  - [Spring-Cloud-Config](https://spring.io/projects/spring-cloud-config)
     
     manageing configuration is a difficult part of developing applications, this project will assist you with it.
 - Dependency management
